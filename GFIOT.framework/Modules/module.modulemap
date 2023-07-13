@@ -1,0 +1,4 @@
+framework module GFIOT {
+  header "GFIOT-Swift.h"
+  requires objc
+}
