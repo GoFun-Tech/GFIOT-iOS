@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+platform :ios, '12.0'
+use_frameworks!
+
+target 'GFIOTDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for GFIOTDemo
+#	pod 'CryptoSwift'
+#  pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git"
+end

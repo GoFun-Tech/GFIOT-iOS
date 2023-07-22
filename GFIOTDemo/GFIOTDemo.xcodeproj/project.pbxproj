@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920A3E0432A1503758F71963 /* Pods_GFIOTDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E578E9A5DB8A557B286B2F7 /* Pods_GFIOTDemo.framework */; };
+		9B70D2782A5FA6AB0041E89A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B70D2772A5FA6AB0041E89A /* CoreBluetooth.framework */; };
+		9B9A92EA2A5E4C47001A0FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A92E92A5E4C47001A0FAF /* AppDelegate.swift */; };
+		9B9A92EE2A5E4C47001A0FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A92ED2A5E4C47001A0FAF /* ViewController.swift */; };
+		9B9A92F12A5E4C47001A0FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A92EF2A5E4C47001A0FAF /* Main.storyboard */; };
+		9B9A92F32A5E4C48001A0FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A92F22A5E4C48001A0FAF /* Assets.xcassets */; };
+		9B9A92F62A5E4C48001A0FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A92F42A5E4C48001A0FAF /* LaunchScreen.storyboard */; };
+		D65769632A6BC6540006C90C /* GFIOT-Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65769612A6BC6540006C90C /* GFIOT-Description.swift */; };
+		D65769642A6BC6540006C90C /* GFIOT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65769622A6BC6540006C90C /* GFIOT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AFBA98D828423D697B050D6 /* Pods-GFIOTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFIOTDemo.debug.xcconfig"; path = "Target Support Files/Pods-GFIOTDemo/Pods-GFIOTDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5E578E9A5DB8A557B286B2F7 /* Pods_GFIOTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFIOTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED301502C5FC901E5BE3BEF /* Pods-GFIOTDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFIOTDemo.release.xcconfig"; path = "Target Support Files/Pods-GFIOTDemo/Pods-GFIOTDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9B70D2772A5FA6AB0041E89A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9B9A92E62A5E4C47001A0FAF /* GFIOTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFIOTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9A92E92A5E4C47001A0FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B9A92ED2A5E4C47001A0FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B9A92F02A5E4C47001A0FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B9A92F22A5E4C48001A0FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B9A92F52A5E4C48001A0FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B9A92F72A5E4C48001A0FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65769612A6BC6540006C90C /* GFIOT-Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GFIOT-Description.swift"; sourceTree = "<group>"; };
+		D65769622A6BC6540006C90C /* GFIOT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GFIOT.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B9A92E32A5E4C47001A0FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65769642A6BC6540006C90C /* GFIOT.framework in Frameworks */,
+				9B70D2782A5FA6AB0041E89A /* CoreBluetooth.framework in Frameworks */,
+				920A3E0432A1503758F71963 /* Pods_GFIOTDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EAD1D69B2673B070940502A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B70D2772A5FA6AB0041E89A /* CoreBluetooth.framework */,
+				5E578E9A5DB8A557B286B2F7 /* Pods_GFIOTDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76DE079C73E13EAF1D6F07CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFBA98D828423D697B050D6 /* Pods-GFIOTDemo.debug.xcconfig */,
+				6ED301502C5FC901E5BE3BEF /* Pods-GFIOTDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B9A92DD2A5E4C47001A0FAF = {
+			isa = PBXGroup;
+			children = (
+				9B9A92E82A5E4C47001A0FAF /* GFIOTDemo */,
+				9B9A92E72A5E4C47001A0FAF /* Products */,
+				3EAD1D69B2673B070940502A /* Frameworks */,
+				76DE079C73E13EAF1D6F07CD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9B9A92E72A5E4C47001A0FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A92E62A5E4C47001A0FAF /* GFIOTDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B9A92E82A5E4C47001A0FAF /* GFIOTDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D65769602A6BC6540006C90C /* GFIOTSDK */,
+				9B9A92E92A5E4C47001A0FAF /* AppDelegate.swift */,
+				9B9A92ED2A5E4C47001A0FAF /* ViewController.swift */,
+				9B9A92EF2A5E4C47001A0FAF /* Main.storyboard */,
+				9B9A92F22A5E4C48001A0FAF /* Assets.xcassets */,
+				9B9A92F42A5E4C48001A0FAF /* LaunchScreen.storyboard */,
+				9B9A92F72A5E4C48001A0FAF /* Info.plist */,
+			);
+			path = GFIOTDemo;
+			sourceTree = "<group>";
+		};
+		D65769602A6BC6540006C90C /* GFIOTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D65769612A6BC6540006C90C /* GFIOT-Description.swift */,
+				D65769622A6BC6540006C90C /* GFIOT.framework */,
+			);
+			path = GFIOTSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B9A92E52A5E4C47001A0FAF /* GFIOTDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9A92FA2A5E4C48001A0FAF /* Build configuration list for PBXNativeTarget "GFIOTDemo" */;
+			buildPhases = (
+				DC1B7DEF0945EEB9D0DC8F65 /* [CP] Check Pods Manifest.lock */,
+				9B9A92E22A5E4C47001A0FAF /* Sources */,
+				9B9A92E32A5E4C47001A0FAF /* Frameworks */,
+				9B9A92E42A5E4C47001A0FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFIOTDemo;
+			productName = GFIOTDemo;
+			productReference = 9B9A92E62A5E4C47001A0FAF /* GFIOTDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B9A92DE2A5E4C47001A0FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9B9A92E52A5E4C47001A0FAF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B9A92E12A5E4C47001A0FAF /* Build configuration list for PBXProject "GFIOTDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B9A92DD2A5E4C47001A0FAF;
+			productRefGroup = 9B9A92E72A5E4C47001A0FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B9A92E52A5E4C47001A0FAF /* GFIOTDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B9A92E42A5E4C47001A0FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A92F62A5E4C48001A0FAF /* LaunchScreen.storyboard in Resources */,
+				9B9A92F32A5E4C48001A0FAF /* Assets.xcassets in Resources */,
+				9B9A92F12A5E4C47001A0FAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC1B7DEF0945EEB9D0DC8F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GFIOTDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B9A92E22A5E4C47001A0FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65769632A6BC6540006C90C /* GFIOT-Description.swift in Sources */,
+				9B9A92EE2A5E4C47001A0FAF /* ViewController.swift in Sources */,
+				9B9A92EA2A5E4C47001A0FAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B9A92EF2A5E4C47001A0FAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9A92F02A5E4C47001A0FAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B9A92F42A5E4C48001A0FAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9A92F52A5E4C48001A0FAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B9A92F82A5E4C48001A0FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9B9A92F92A5E4C48001A0FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B9A92FB2A5E4C48001A0FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFBA98D828423D697B050D6 /* Pods-GFIOTDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM3G835QN9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GFIOTDemo",
+					"$(PROJECT_DIR)/GFIOTDemo/GFIOTSDK",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GFIOTSDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GFIOTDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gvsoft.Example.GFIOTDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B9A92FC2A5E4C48001A0FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED301502C5FC901E5BE3BEF /* Pods-GFIOTDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM3G835QN9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GFIOTDemo",
+					"$(PROJECT_DIR)/GFIOTDemo/GFIOTSDK",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GFIOTSDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GFIOTDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gvsoft.Example.GFIOTDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B9A92E12A5E4C47001A0FAF /* Build configuration list for PBXProject "GFIOTDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A92F82A5E4C48001A0FAF /* Debug */,
+				9B9A92F92A5E4C48001A0FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9A92FA2A5E4C48001A0FAF /* Build configuration list for PBXNativeTarget "GFIOTDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A92FB2A5E4C48001A0FAF /* Debug */,
+				9B9A92FC2A5E4C48001A0FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B9A92DE2A5E4C47001A0FAF /* Project object */;
+}

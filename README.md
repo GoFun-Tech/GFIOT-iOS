@@ -10,11 +10,11 @@ pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git"
 
 ###### Swift工程使用:
 ```
-pod "GFIOT-xxx", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git"
+pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git", :branch => 'XC-xxx'
 ```
 `xxx`表示Xcode版本, 如Xcode版本为`13.2`, Podfile则写为
 ```
-pod "GFIOT-13.2", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git"
+pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git", :branch => 'XC-13.2'
 ```
 
 执行`pod install`后即可使用
@@ -26,13 +26,16 @@ pod "GFIOT-13.2", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git"
 ###### Swift工程手动接入:
 将`GFIOTSDK-xxx`文件夹导入项目
 * `xxx`表示Xcode版本号
+* 
 * 如Xcode版本为`13.2`,则导入`GFIOTSDK-13.2`文件夹
 
 
 ###### GFIOTSDK文件夹结构:
 > GFIOTSDK
 >> GFIOT-Description.swift
+>>
 >> GFIOT.framework
+
 
 ### 3.工程配置
 在`Info.plist`文件增加`Privacy - Bluetooth Always Usage Description`使用蓝牙说明。
@@ -118,7 +121,7 @@ public class GFIOT_RESULT: NSObject {
 |init时code|说明|
 |--|--|
 |200|初始化成功 init时回调|
-|20000|apikey无效|
+|其他|apikey无效|
 
 |control时code|说明|
 |--|--|
@@ -133,3 +136,11 @@ public class GFIOT_RESULT: NSObject {
 |30007|车灯未关闭|
 |30008|请勿重复操作（前一个操作未完成，又执行下一个控制时触发）|
 
+
+### 下载SDK
+###### Objective-C工程使用
+[下载地址]()
+
+###### Swift工程使用
+[Xcode13.2版本-Swift5.7.2]()
+[Xcode13.3版本-Swift5.8.2]()
