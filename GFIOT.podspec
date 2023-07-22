@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/qianquan/GFIOT'
+  s.homepage         = 'https://github.com/GoFun-Tech/GFIOT-iOS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qianquan' => 'qianquan@shouqiev.com' }
@@ -29,12 +29,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.requires_arc = true
   s.ios.deployment_target = '11.0'
-  s.vendored_frameworks = 'GFIOT.framework'
+  s.vendored_frameworks = 'GFIOTSDK/GFIOT.framework'
+  
+  #s.library = 'commonCrypto'
 
   s.frameworks = [
     'CoreBluetooth'
   ]
-  #s.source_files = 'GFIOT/Classes/**/*'
+  #s.source_files = 'GFIOTSDK/GFIOT-Description.swift'
   
   #s.resources = [
   #  'GFIOTSDK.bundle'
@@ -42,5 +44,6 @@ TODO: Add long description of the pod here.
   
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
   
-  s.dependency 'CryptoSwift'
+  s.swift_version = '5.0'
+  
 end
