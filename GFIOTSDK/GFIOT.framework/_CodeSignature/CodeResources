@@ -6,35 +6,35 @@
 	<dict>
 		<key>Headers/GFIOT-Swift.h</key>
 		<data>
-		h+dmZxX/hvjK4HgddNEEfa/qwIM=
+		0ouUafQMDlmEsOhuPP8OJvJQaUg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fdDGOIXCSsPrf5AQCRkwhstmXVs=
+		qlpkZuEtr+K42dTHB3BxTxhbKJc=
 		</data>
 		<key>Modules/GFIOT.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		mlW1lG6sTom0BeCuDfcNilLfs44=
+		Vy0IAeo+d3o3GHIDK7uSGqFzWRI=
 		</data>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		2DE6GP74byVz8JvT3u3wE81IAis=
+		mezM36JQ22g7C95sFWnKt6ka1/A=
 		</data>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		TDV9P7H1uQhsw+03BqvE5byL0MI=
+		7c+BIj2KbnFGtm81Ja4g8bY1fDA=
 		</data>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ei0LeOu3DNfqBJo+3nqluX39heg=
+		TQrWXr+ldn3a+Mpq85waKG2rTv0=
 		</data>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		TDV9P7H1uQhsw+03BqvE5byL0MI=
+		7c+BIj2KbnFGtm81Ja4g8bY1fDA=
 		</data>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Tr6aLZuufTwhdm1tH44mvlsxNvU=
+		CxW/rRJu/CDj5S5bTh6rBHWxCnE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,77 +47,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h+dmZxX/hvjK4HgddNEEfa/qwIM=
+			0ouUafQMDlmEsOhuPP8OJvJQaUg=
 			</data>
 			<key>hash2</key>
 			<data>
-			+pD5Oq0g8rGplTW95Uvf570XpfIUMgXrLbi3hjlYKAE=
+			AUyl+TBEU/J/y+VuDk10/XcYqwIC0tNY3cIVjJz2J48=
 			</data>
 		</dict>
 		<key>Modules/GFIOT.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mlW1lG6sTom0BeCuDfcNilLfs44=
+			Vy0IAeo+d3o3GHIDK7uSGqFzWRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			RC/0YyNPpDevCIkPaAAFSOFUlEy3dzORfXmQlTK4USU=
+			/GxcwiEcCwred12nIvT6KakkqRv1VR7ym9vQbilu7n4=
 			</data>
 		</dict>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2DE6GP74byVz8JvT3u3wE81IAis=
+			mezM36JQ22g7C95sFWnKt6ka1/A=
 			</data>
 			<key>hash2</key>
 			<data>
-			dT3JWxHiJzoRWeyfIZ2rU54uIgG0oZTBZIiCEJZwD4w=
+			RtPjO0vZRehmUUl3wiWoJWDU7xiIxJBpJfzTkyB4YvM=
 			</data>
 		</dict>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TDV9P7H1uQhsw+03BqvE5byL0MI=
+			7c+BIj2KbnFGtm81Ja4g8bY1fDA=
 			</data>
 			<key>hash2</key>
 			<data>
-			t2aLGiv0Z1ujg4xt/toPafgLtCDP8yMnWkbBQhUdP7o=
+			94IEhDGPwZ2HB3BFNzuN2qciM6oSLl7ET/Q9PR036fA=
 			</data>
 		</dict>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ei0LeOu3DNfqBJo+3nqluX39heg=
+			TQrWXr+ldn3a+Mpq85waKG2rTv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			0PtMtl690KijGYlZS7UpdWcj/psHfRx/DFzqbVvGEuE=
+			+rZYMcDY9pl0Tose7waUY/zoQWbRk3F4c1E541U+CTI=
 			</data>
 		</dict>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TDV9P7H1uQhsw+03BqvE5byL0MI=
+			7c+BIj2KbnFGtm81Ja4g8bY1fDA=
 			</data>
 			<key>hash2</key>
 			<data>
-			t2aLGiv0Z1ujg4xt/toPafgLtCDP8yMnWkbBQhUdP7o=
+			94IEhDGPwZ2HB3BFNzuN2qciM6oSLl7ET/Q9PR036fA=
 			</data>
 		</dict>
 		<key>Modules/GFIOT.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Tr6aLZuufTwhdm1tH44mvlsxNvU=
+			CxW/rRJu/CDj5S5bTh6rBHWxCnE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PQpdF9cIIvYZoLR+UfMaHUfemDQ3aDmHfKDkDcut/QU=
+			HfhjVL0fnAb9IDUwGtwz2j6sf8fFZxiVXMZn3Xa+nfc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
