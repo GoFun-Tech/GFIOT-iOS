@@ -3,31 +3,23 @@
 ### 1.CocoaPods 集成(推荐)
 
 Podfile增加
-###### Objective-C工程使用:
-```
-pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git"
-```
-
-###### Swift工程使用:
 ```
 pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git", :branch => 'XC-xxx'
 ```
-`xxx`表示Xcode版本, 如Xcode版本为`13.2`, Podfile则写为
+`xxx`表示Xcode版本, 如Xcode版本为`14.2`, Podfile则写为
 ```
-pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git", :branch => 'XC-13.2'
+pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git", :branch => 'XC-14.2'
 ```
 
 执行`pod install`后即可使用
 
 ### 2.手动接入
-###### Objective-C工程手动接入:
-将`GFIOTSDK`文件夹导入项目
 
 ###### Swift工程手动接入:
 将`GFIOTSDK-xxx`文件夹导入项目
 * `xxx`表示Xcode版本号
 * 
-* 如Xcode版本为`13.2`,则导入`GFIOTSDK-13.2`文件夹
+* 如Xcode版本为`14.2`,则导入`GFIOTSDK-14.2`文件夹
 
 
 ###### GFIOTSDK文件夹结构:
@@ -142,6 +134,6 @@ public class GFIOT_RESULT: NSObject {
 [下载地址]()
 
 ###### Swift工程使用
-[Xcode13.2版本-Swift5.7.2]()
+[Xcode14.2版本-Swift5.7.2]()
 
-[Xcode13.3版本-Swift5.8.2]()
+[Xcode14.3版本-Swift5.8.2]()
