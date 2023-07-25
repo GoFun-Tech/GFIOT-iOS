@@ -1,43 +1,59 @@
-# GFIOT iOS接入指南
+# GFIOT
+[简体中文](./README_CN.md) | English
+## Install GFIOT
 
-### 1.CocoaPods 集成(推荐)
+### 1.CocoaPods
 
-Podfile增加
+Add the pod to your `Podfile`:
 ```
 pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git", :branch => 'XC-xxx'
 ```
-`xxx`表示Xcode版本, 如Xcode版本为`14.2`, Podfile则写为
+`xxx` means your Xcode version number, if Xcode version number is `14.2`, add the pod to your `Podfile`
 ```
 pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git", :branch => 'XC-14.2'
 ```
 
-执行`pod install`后即可使用
+And then run:
 
-### 2.手动接入
+```
+pod install
+```
 
-###### Swift工程手动接入:
-将`GFIOTSDK-xxx`文件夹导入项目
-* `xxx`表示Xcode版本号
+### 2.Manually import the SDK
+
+Import the `GFIOTSDK-xxx` folder into your project
+* `xxx`means your Xcode version number
 * 
-* 如Xcode版本为`14.2`,则导入`GFIOTSDK-14.2`文件夹
+* if Xcode version number is `14.2`, import the `GFIOTSDK-14.2`folder into your project
+
+download GFIOT SDK
+[GFIOT-Xcode14.2-Swift5.7.2]()
+
+[GFIOT-Xcode14.3-Swift5.8.2]()
 
 
-###### GFIOTSDK文件夹结构:
+###### GFIOTSDK folder structure:
 > GFIOTSDK
 >> GFIOT-Description.swift
 >>
 >> GFIOT.framework
 
 
-### 3.工程配置
-在`Info.plist`文件增加`Privacy - Bluetooth Always Usage Description`使用蓝牙说明。
+### 3.project setting
+Add the key to your `Info.plist`
+```
+Privacy - Bluetooth Always Usage Description
+```
+And add use description
+
 
 ![添加隐私声明](https://imgpub1.shouqiev.com/gofunplatform/files/20230721/duUoubDOIf.png)
 
-### 4.编写集成代码
-#### 4.1 Swfit代码
-##### 4.1.1 初始化SDK
-在获取到`accessToken`之后调用以下代码。
+### 4.Edit Code
+#### 4.1 Swfit
+##### 4.1.1 Init SDK
+First get `accessToken` by your service, than use the `accessToken` call this function.
+
 ```
 import GFIOT
 
@@ -45,22 +61,32 @@ GFIOT.initSDK(accessToken, isDebug: true ,callback: { (code, result) in
     
 })
 ```
-`isDebug`不传值,则默认为`false`,即使用正式环境。
+`isDebug`: whether to use the debug environment, defaults to `false`
 
-##### 4.1.2 控制车辆
+##### 4.1.2 Control
 ```
 import GFIOT
 
-GFIOT.control(deviceId, command, callback: { code, result in
+GFIOT.control(deviceId, .OPEN_DOOR, callback: { code, result in
 
 })
 ```
-* `deviceId`为需要控制的车机id
-* `command`为下发的指令
+* `deviceId`: control device id
 
-#### 4.2 Objective-C代码
-##### 4.2.1 初始化SDK
-在获取到`accessToken`之后调用以下代码。
+###### Swift command enum
+|command|description|
+|--|--|
+|OPEN_DOOR|Open the door|
+|CLOSE_DOOR|Close the door|
+|OPEN_DOOR_AND_POWER|Power on and open the door|
+|CLOSE_DOOR_AND_POWER|Power off and close the door|
+|POWER_ON|Power on|
+|POWER_OFF|Power off|
+
+
+#### 4.2 Objective-C
+##### 4.2.1 Init SDK
+First get `accessToken` by your service, than use the `accessToken` call this function.
 ```
 #import <GFIOT/GFIOT-Swift.h>
 
@@ -68,9 +94,9 @@ GFIOT.control(deviceId, command, callback: { code, result in
             
 }];
 ```
-`isDebug`不传值,则默认为`NO`,即使用正式环境。
+`isDebug`: whether to use the debug environment.
 
-##### 4.2.2 控制车辆
+##### 4.2.2 Control
 ```
 #import <GFIOT/GFIOT-Swift.h>
 
@@ -78,27 +104,35 @@ GFIOT.control(deviceId, command, callback: { code, result in
         
 }];
 ```
-* `deviceId`为需要控制的车机id
-* `command`为下发的指令
-
-
-### 5.回调说明
-|字段|说明|
+* `deviceId`: control device id
+###### Objective-C command enum
+|command|description|
 |--|--|
-|code|错误码|
-|result|回调详细数据|
-|message|回调说明|
-|deviceId|车机id(只有控制车辆方法才有值)|
+|GFIOT_CONTROL_OPEN_DOOR|Open the door|
+|GFIOT_CONTROL_CLOSE_DOOR|Close the door|
+|GFIOT_CONTROL_OPEN_DOOR_AND_POWER|Power On and open the door|
+|GFIOT_CONTROL_CLOSE_DOOR_AND_POWER|Power Off and close the door|
+|GFIOT_CONTROL_POWER_ON|Power On|
+|GFIOT_CONTROL_POWER_OFF|Power Off|
 
-result结构
-###### Swift
+
+### 5.Call back info
+|property|description|
+|--|--|
+|code|Error Code|
+|result|Call back description|
+|message|Call back message|
+|deviceId|Only exists in the control function|
+
+##### 5.1 Result 
+###### 5.1.1 Swift
 ```
 public class GFIOT_RESULT: NSObject {
     public var message: String = ""
     public var deviceId: String?
 }
 ```
-###### Objective-C
+###### 5.1.2 Objective-C
 ```
 @interface GFIOT_RESULT: NSObject 
 
@@ -109,31 +143,25 @@ public class GFIOT_RESULT: NSObject {
 
 ```
 
-##### code说明
-|init时code|说明|
+##### 5.2 Code 
+|Init return the code|Description|
 |--|--|
-|200|初始化成功 init时回调|
-|其他|apikey无效|
+|200|Success|
+|other|`assesToken` invalid|
 
-|control时code|说明|
+
+|Control return the code|Description|
 |--|--|
-|300|指令操作成功|
-|30000|蓝牙未开启|
-|30001|连接设备失败|
-|30002|车机版本低，不支持此命令|
-|30003|车机命令超时或未响应|
-|30004|控制指令异常 message中有具体说明|
-|30005|车辆未熄火，请在车辆熄火后执行|
-|30006|车门未关闭|
-|30007|车灯未关闭|
-|30008|请勿重复操作（前一个操作未完成，又执行下一个控制时触发）|
+|200|Success|
+|30000|Bluetooth not turned on|
+|30001|Bluetooth connect failed|
+|30002|This command is not supported|
+|30003|Time out|
+|30004|Command error|
+|30005|The vehicle is not turned off|
+|30006|The door is not closed|
+|30007|Lights not turned off|
+|30008|Do not repeat|
 
 
-### 下载SDK
-###### Objective-C工程使用
-[下载地址]()
 
-###### Swift工程使用
-[Xcode14.2版本-Swift5.7.2]()
-
-[Xcode14.3版本-Swift5.8.2]()
