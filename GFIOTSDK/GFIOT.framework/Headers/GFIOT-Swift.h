@@ -271,8 +271,8 @@ SWIFT_CLASS("_TtC5GFIOT5GFIOT")
 /// \param action 控制方式
 ///
 + (void)control:(NSString * _Nonnull)deviceId :(enum GFIOT_CONTROL_)action callback:(void (^ _Nonnull)(NSInteger, GFIOT_RESULT * _Nonnull))callback;
+/// sdk版本号
 + (NSString * _Nonnull)getSDKVersion SWIFT_WARN_UNUSED_RESULT;
-+ (void)operationLogWithCallBack:(void (^ _Nullable)(NSString * _Nonnull))callBack;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

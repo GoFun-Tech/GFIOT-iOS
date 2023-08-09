@@ -946,57 +946,8 @@
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "operationLog",
-            "printedName": "operationLog(callBack:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@GFIOT@objc(cs)GFIOT(cm)operationLogWithCallBack:",
-            "mangledName": "$s5GFIOTAAC12operationLog8callBackyySScSg_tFZ",
-            "moduleName": "GFIOT",
-            "static": true,
-            "objc_name": "operationLogWithCallBack:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -20996,70 +20947,70 @@
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "BooleanLiteral",
-      "offset": 834,
+      "offset": 840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1288,
+      "offset": 1294,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1335,
+      "offset": 1341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1382,
+      "offset": 1388,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "StringLiteral",
-      "offset": 1514,
+      "offset": 1520,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1567,
+      "offset": 1573,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1774,
+      "offset": 1780,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1808,
+      "offset": 1814,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "StringLiteral",
-      "offset": 8339,
+      "offset": 8718,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/lib\/CarControl\/GFCarControl.swift",
       "kind": "StringLiteral",
-      "offset": 8367,
+      "offset": 8746,
       "length": 2,
       "value": "\"\""
     },
@@ -21213,119 +21164,119 @@
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1980,
+      "offset": 1988,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2026,
+      "offset": 2034,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2080,
+      "offset": 2088,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2135,
+      "offset": 2143,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2177,
+      "offset": 2185,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2223,
+      "offset": 2231,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1980,
+      "offset": 1988,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2026,
+      "offset": 2034,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2080,
+      "offset": 2088,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2135,
+      "offset": 2143,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2177,
+      "offset": 2185,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2223,
+      "offset": 2231,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2711,
+      "offset": 2719,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2711,
+      "offset": 2719,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2711,
+      "offset": 2719,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "StringLiteral",
-      "offset": 2789,
+      "offset": 2797,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qianquan\/Desktop\/GoFun-projects\/gofun-iot-ios\/GFIOT\/GFIOT.swift",
       "kind": "IntegerLiteral",
-      "offset": 2850,
+      "offset": 2858,
       "length": 1,
       "value": "0"
     }

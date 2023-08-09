@@ -42,7 +42,6 @@ public typealias GFIOT_LOG_CALLBACK = ((Swift.String) -> Swift.Void)
   @objc public static func initSDK(_ accessToken: Swift.String, isDebug: Swift.Bool = false, callback: @escaping GFIOT.GFIOT_MESSAGE_CALLBACK)
   @objc public static func control(_ deviceId: Swift.String, _ action: GFIOT.GFIOT_CONTROL_, callback: @escaping GFIOT.GFIOT_MESSAGE_CALLBACK)
   @objc public static func getSDKVersion() -> Swift.String
-  @objc public static func operationLog(callBack: GFIOT.GFIOT_LOG_CALLBACK?)
   @objc override dynamic public init()
   @objc deinit
 }
