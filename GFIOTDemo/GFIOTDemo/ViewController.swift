@@ -8,7 +8,6 @@
 import UIKit
 import GFIOT
 
-
 class ViewController: UIViewController {
 
     var token = "FJrisgiIy0Hg/V2CIZo7j0efZwZXobKacV+aux1JosM="
@@ -32,15 +31,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         setupUI()
         initGFIOTSDK()
-        GFIOT.operationLog { [weak self] str in
-            guard let self = self else { return }
-            let tempStr = self.outputMsg.isEmpty ? "" : "\n"
-            self.outputMsg = self.outputMsg + "\(tempStr)\(self.nowDate())指令：\(str)"
-        }
     }
     
     func initGFIOTSDK() {
-        GFIOT.initSDK(token, isDebug: true ,callback: { [weak self] (code, result) in
+        GFIOT.initSDK(token, isDebug: false,callback: { [weak self] (code, result) in
             guard let self = self else {
                 self?.outputMsg = (self?.outputMsg ?? "") + "\n\(String(describing: self?.nowDate()))初始化致命错误！！！！！！"
                 return

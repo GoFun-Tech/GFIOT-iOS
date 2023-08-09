@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GFIOT
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
@@ -42,6 +42,7 @@ public typealias GFIOT_LOG_CALLBACK = ((Swift.String) -> Swift.Void)
   @objc public static func initSDK(_ accessToken: Swift.String, isDebug: Swift.Bool = false, callback: @escaping GFIOT.GFIOT_MESSAGE_CALLBACK)
   @objc public static func control(_ deviceId: Swift.String, _ action: GFIOT.GFIOT_CONTROL_, callback: @escaping GFIOT.GFIOT_MESSAGE_CALLBACK)
   @objc public static func getSDKVersion() -> Swift.String
+  @objc public static func operationLog(callBack: GFIOT.GFIOT_LOG_CALLBACK?)
   @objc override dynamic public init()
   @objc deinit
 }

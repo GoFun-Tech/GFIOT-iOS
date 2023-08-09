@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		920A3E0432A1503758F71963 /* Pods_GFIOTDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E578E9A5DB8A557B286B2F7 /* Pods_GFIOTDemo.framework */; };
+		9B49DA892A6BBDEB001765D1 /* GFIOT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B49DA882A6BBDEB001765D1 /* GFIOT.framework */; };
 		9B70D2782A5FA6AB0041E89A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B70D2772A5FA6AB0041E89A /* CoreBluetooth.framework */; };
 		9B9A92EA2A5E4C47001A0FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A92E92A5E4C47001A0FAF /* AppDelegate.swift */; };
 		9B9A92EE2A5E4C47001A0FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A92ED2A5E4C47001A0FAF /* ViewController.swift */; };
 		9B9A92F12A5E4C47001A0FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A92EF2A5E4C47001A0FAF /* Main.storyboard */; };
 		9B9A92F32A5E4C48001A0FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A92F22A5E4C48001A0FAF /* Assets.xcassets */; };
 		9B9A92F62A5E4C48001A0FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A92F42A5E4C48001A0FAF /* LaunchScreen.storyboard */; };
-		D65769632A6BC6540006C90C /* GFIOT-Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65769612A6BC6540006C90C /* GFIOT-Description.swift */; };
-		D65769642A6BC6540006C90C /* GFIOT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65769622A6BC6540006C90C /* GFIOT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AFBA98D828423D697B050D6 /* Pods-GFIOTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFIOTDemo.debug.xcconfig"; path = "Target Support Files/Pods-GFIOTDemo/Pods-GFIOTDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5E578E9A5DB8A557B286B2F7 /* Pods_GFIOTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFIOTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED301502C5FC901E5BE3BEF /* Pods-GFIOTDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFIOTDemo.release.xcconfig"; path = "Target Support Files/Pods-GFIOTDemo/Pods-GFIOTDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9B49DA882A6BBDEB001765D1 /* GFIOT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GFIOT.framework; path = "../../../../Library/Developer/Xcode/DerivedData/GFIOT-gwotbvmmdlqvdbfnuukbnfgpgigc/Build/Products/Release-iphoneos/GFIOT.framework"; sourceTree = "<group>"; };
 		9B70D2772A5FA6AB0041E89A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		9B9A92E62A5E4C47001A0FAF /* GFIOTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFIOTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9A92E92A5E4C47001A0FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +30,6 @@
 		9B9A92F22A5E4C48001A0FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9A92F52A5E4C48001A0FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B9A92F72A5E4C48001A0FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D65769612A6BC6540006C90C /* GFIOT-Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GFIOT-Description.swift"; sourceTree = "<group>"; };
-		D65769622A6BC6540006C90C /* GFIOT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GFIOT.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65769642A6BC6540006C90C /* GFIOT.framework in Frameworks */,
+				9B49DA892A6BBDEB001765D1 /* GFIOT.framework in Frameworks */,
 				9B70D2782A5FA6AB0041E89A /* CoreBluetooth.framework in Frameworks */,
 				920A3E0432A1503758F71963 /* Pods_GFIOTDemo.framework in Frameworks */,
 			);
@@ -87,9 +85,9 @@
 		9B9A92E82A5E4C47001A0FAF /* GFIOTDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D65769602A6BC6540006C90C /* GFIOTSDK */,
 				9B9A92E92A5E4C47001A0FAF /* AppDelegate.swift */,
 				9B9A92ED2A5E4C47001A0FAF /* ViewController.swift */,
+				9B49DA882A6BBDEB001765D1 /* GFIOT.framework */,
 				9B9A92EF2A5E4C47001A0FAF /* Main.storyboard */,
 				9B9A92F22A5E4C48001A0FAF /* Assets.xcassets */,
 				9B9A92F42A5E4C48001A0FAF /* LaunchScreen.storyboard */,
@@ -97,15 +95,6 @@
 			);
 			path = GFIOTDemo;
 			sourceTree = "<group>";
-		};
-		D65769602A6BC6540006C90C /* GFIOTSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D65769612A6BC6540006C90C /* GFIOT-Description.swift */,
-				D65769622A6BC6540006C90C /* GFIOT.framework */,
-			);
-			path = GFIOTSDK;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -204,7 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65769632A6BC6540006C90C /* GFIOT-Description.swift in Sources */,
 				9B9A92EE2A5E4C47001A0FAF /* ViewController.swift in Sources */,
 				9B9A92EA2A5E4C47001A0FAF /* AppDelegate.swift in Sources */,
 			);
@@ -364,7 +352,6 @@
 					"$(PROJECT_DIR)/GFIOTDemo",
 					"$(PROJECT_DIR)/GFIOTDemo/GFIOTSDK",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/GFIOTSDK",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GFIOTDemo/Info.plist;
@@ -401,7 +388,6 @@
 					"$(PROJECT_DIR)/GFIOTDemo",
 					"$(PROJECT_DIR)/GFIOTDemo/GFIOTSDK",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/GFIOTSDK",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GFIOTDemo/Info.plist;

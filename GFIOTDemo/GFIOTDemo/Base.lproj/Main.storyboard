@@ -91,7 +91,6 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="powerOff:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PKh-z6-0NY"/>
-                                            <action selector="powerOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rBx-mt-pXE"/>
                                         </connections>
                                     </button>
                                 </subviews>
