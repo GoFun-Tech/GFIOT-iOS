@@ -23,9 +23,9 @@ pod "GFIOT", :git => "https://github.com/GoFun-Tech/GFIOT-iOS.git", :branch => '
 * 如Xcode版本为`14.2`,则导入`GFIOTSDK-14.2`文件夹
 
 下载SDK
-[Xcode14.2版本-Swift5.7.2]()
+[Xcode14.2版本](https://imgpub1.shouqiev.com/gofunplatform/files/20230809/putqvKUGpu.zip)
 
-[Xcode14.3版本-Swift5.8.2]()
+[Xcode14.3.1版本](https://imgpub1.shouqiev.com/gofunplatform/files/20230809/ZlCXCcFHlS.zip)
 
 
 ###### GFIOTSDK文件夹结构:
